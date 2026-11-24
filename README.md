@@ -4,7 +4,7 @@
 
 An automated examination management system developed using Python to handle applicant eligibility, examination scheduling, seat allotment, result processing, and reattempt eligibility for Amateur Radio Licence examinations.
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Testing](https://img.shields.io/badge/Testing-Pytest-green)](https://pytest.org/)
 [![Repository](https://img.shields.io/badge/Repository-GitHub-black?logo=github)](https://github.com/shivarajp26/E036-ECE-061)
 
@@ -31,29 +31,34 @@ It uses CSV files as input and generates structured CSV output reports.
 ## ✨ Key Features
 
 ### 1. Applicant Management
+
 - Load applicant information from CSV files.
 - Validate applicant details.
 - Check minimum age requirements.
 - Verify eligibility for RESTRICTED and GENERAL grades.
 
 ### 2. Examination Scheduling
+
 - Process applications in batches.
 - Allocate applicants to the earliest eligible examination session.
 - Manage available seat capacity.
 - Maintain application order and priority.
 
 ### 3. Result Processing
+
 - Calculate section-wise examination percentages.
 - Apply the required passing criteria.
 - Support half-up percentage rounding.
 - Evaluate MORSE examination performance.
 
 ### 4. Exemption Management
+
 - Carry forward previously passed sections within the permitted 12-month period.
 - Apply exemptions only to the same examination grade.
 - Avoid renewing exemption periods through already exempted sections.
 
 ### 5. Reattempt Management
+
 - Enforce 30-day cooling periods after failures.
 - Apply 90-day cooling periods after three consecutive failures.
 - Track examination absences.
@@ -112,8 +117,8 @@ E036-ECE-061/
 
 ### Prerequisites
 
-- Python 3.x
-- Visual Studio Code
+- Python 3.10 or later
+- Visual Studio Code (recommended)
 - Git
 
 ### 1. Clone the Repository
@@ -145,7 +150,7 @@ python -m venv .venv
 ### 5. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## ▶️ Running the Project
@@ -205,9 +210,11 @@ All generated reports are stored in the `outputs/` directory.
 | Shivaraj Patil | Project Team Member |
 | Sindhu | Project Team Member |
 
-## 🔗 Project Repository
+## 🎥 Project Demonstration Video
 
-GitHub: https://github.com/shivarajp26/E036-ECE-061
+Watch the project demonstration here:
+
+[▶ Watch the Project Demonstration](https://drive.google.com/file/d/15-9nWEuFJE5ykthAxRu0n4Ps502qi99c/view?usp=drive_link)
 
 ---
 
